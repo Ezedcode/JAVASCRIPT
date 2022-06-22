@@ -1,0 +1,29 @@
+body {
+    background-color: #006d8b;
+    font:bold 18px arial;
+}
+
+header,footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+section {
+    background-color: #d3efe0;
+    margin: auto;
+    width: 425px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    margin-bottom: 20px;
+}
+
+#button_count {
+    padding: 5px 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px;
+}
+
+div > p {
+    margin: 0;
+}

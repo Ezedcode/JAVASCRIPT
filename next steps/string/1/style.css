@@ -1,0 +1,33 @@
+body {
+    font: normal 18px Courgette;
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+
+section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#button  {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#result {
+    background-color: rgb(68, 64, 64);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0;
+    color:rgba(255, 255, 255, 0.821);
+    box-shadow: 2px 2px 5px rgb(74, 67, 67);
+}
+
+header, footer {
+    text-align: center;
+    color: white; 
+    font-weight: bolder;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,25 @@
+body {
+    font: normal 18px Arial;
+    background-color:rgb(0, 130, 117);
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    margin: auto;
+    color: rgb(14, 104, 95);;
+    margin-bottom: 20px;
+    
+}
+
+#f_list {
+    width: 120px;
+}

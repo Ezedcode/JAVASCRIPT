@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fine System</h1>
+    Speed of car:<input type="number" name="testspeed" id="testspeed">km/h
+    <input type="button" value="verify" onclick="calculate()">    
+    <div id="res">
+
+    </div>
+    <script>
+       function calculate() {
+            var txtv = window.document.querySelector('input#testspeed')
+            var res = window.document.querySelector('div#res')
+            var speed = Number(txtv.value)
+            res.innerHTML = `<p>Your actual speed is <strong>${speed}km/h</strong></p>`
+
+            if (speed > 60){
+                res.innerHTML += `You're <strong>fined</strong> for excess of speed`
+            }
+
+            res.innerHTML += `<p>Always drive careful with seat belt</p>`
+       }
+    </script>
+</body>
+</html>
+
+
+
